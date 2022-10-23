@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "es"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-json": "^5.0.1",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
